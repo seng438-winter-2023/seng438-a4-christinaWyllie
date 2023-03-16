@@ -203,10 +203,12 @@
       "id": "66001243-6283-45bb-9e73-50283526fb14",
       "comment": "",
       "command": "click",
-      "target": "css=.hnf-location__container > .hnf-location__btn-wrapper > .hnf-nudge-tip .hnf-btn__inner",
+      "target": "css=.personalised_hej_fragment--text--heading-l",
       "targets": [
-        ["css=.hnf-location__container > .hnf-location__btn-wrapper > .hnf-nudge-tip .hnf-btn__inner", "css:finder"],
-        ["xpath=//div/div/div/div/div[2]/div[2]/button/span", "xpath:position"]
+        ["css=.personalised_hej_fragment--text--heading-l", "css:finder"],
+        ["xpath=//header[@id='pco_recently_viewed_header']/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Hej! Welcome back')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -681,6 +683,35 @@
       ],
       "value": "MALM was added to your shopping cart"
     }, {
+      "id": "bb7c02ef-268a-4f34-8714-5c6b2dc77f96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rec-btn--icon-primary-inverse > .rec-btn__inner",
+      "targets": [
+        ["css=.rec-btn--icon-primary-inverse > .rec-btn__inner", "css:finder"],
+        ["xpath=//div[16]/div/div[3]/div/div/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec508c7e-aaee-4a3f-87b3-b7c7b6babcd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pip-btn--fluid > .pip-btn__inner",
+      "targets": [
+        ["css=.pip-btn--fluid > .pip-btn__inner", "css:finder"],
+        ["xpath=//div[@id='pip-buy-module-content']/div[5]/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "226cc63e-6153-4a73-ba5b-5282784d99be",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "7ec933c4-d74d-481f-8d7b-6be9d7b2accb",
       "comment": "",
       "command": "click",
@@ -702,16 +733,12 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "edfea71d-4931-42bc-922d-8ee3d3a3d17a",
+      "id": "696394d2-50f6-4f6f-9eb2-63054eb2f746",
       "comment": "",
-      "command": "assertText",
-      "target": "css=.cart-ingka-status__label",
-      "targets": [
-        ["css=.cart-ingka-status__label", "css:finder"],
-        ["xpath=//ul[@id='aria_product_description_30360468']/li[4]/div/span/span", "xpath:idRelative"],
-        ["xpath=//li[4]/div/span/span", "xpath:position"]
-      ],
-      "value": "Not available for home delivery"
+      "command": "verifyText",
+      "target": "css=.cart-ingka-status--red > .cart-ingka-status__label",
+      "targets": [],
+      "value": "Your requested quantity is not available for Home delivery"
     }, {
       "id": "ec024576-3ffb-4a75-8ea0-a2c8848efdd1",
       "comment": "",
@@ -907,18 +934,6 @@
         ["xpath=//li[5]/div/span/span", "xpath:position"]
       ],
       "value": "Available for Home delivery"
-    }, {
-      "id": "57502bba-73e9-4ac1-b78c-a144953306bf",
-      "comment": "",
-      "command": "verifyElementPresent",
-      "target": "css=.product_product__pvcUf:nth-child(2) img",
-      "targets": [
-        ["css=.product_product__pvcUf:nth-child(2) img", "css:finder"],
-        ["xpath=//img[@alt='IKEA LILLNAGGEN ART']", "xpath:img"],
-        ["xpath=//main[@id='one-checkout']/main/div/div/div/div[21]/div[6]/div[2]/div/div/div/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/div/img", "xpath:position"]
-      ],
-      "value": ""
     }, {
       "id": "3720c1fa-4808-4b8b-be56-7ae25386762d",
       "comment": "",
@@ -1196,24 +1211,23 @@
       "id": "1130a8e3-19d7-4be4-b81d-d3dca6c00791",
       "comment": "",
       "command": "click",
-      "target": "css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small > .hnf-btn__inner",
+      "target": "css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--tertiary > .hnf-btn__inner",
       "targets": [
-        ["css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small > .hnf-btn__inner", "css:finder"],
-        ["xpath=//li[@id='hnf-header-postalcodepicker']/div/button/span", "xpath:idRelative"],
-        ["xpath=//li/div/button/span", "xpath:position"],
-        ["xpath=//span[contains(.,'T3R0W2')]", "xpath:innerText"]
+        ["css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--tertiary > .hnf-btn__inner", "css:finder"],
+        ["xpath=//div[8]/div/div/button/span", "xpath:position"]
       ],
       "value": ""
     }, {
       "id": "dfbff832-b00e-415a-8d07-313b4ec22fd0",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small > .hnf-btn__inner",
+      "target": "id=hnf-txt-postalcodepicker-postcode",
       "targets": [
-        ["css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small > .hnf-btn__inner", "css:finder"],
-        ["xpath=//li[@id='hnf-header-postalcodepicker']/div/button/span", "xpath:idRelative"],
-        ["xpath=//li/div/button/span", "xpath:position"],
-        ["xpath=//span[contains(.,'T3R0W2')]", "xpath:innerText"]
+        ["id=hnf-txt-postalcodepicker-postcode", "id"],
+        ["css=#hnf-txt-postalcodepicker-postcode", "css:finder"],
+        ["xpath=//input[@id='hnf-txt-postalcodepicker-postcode']", "xpath:attributes"],
+        ["xpath=//div[@id='postalcodepicker-input-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
       ],
       "value": ""
     }, {
