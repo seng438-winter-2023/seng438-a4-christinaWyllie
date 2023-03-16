@@ -934,11 +934,11 @@
       "id": "cea87ba9-5e0c-4a6d-a4f9-eb0d68b2d8cb",
       "comment": "",
       "command": "verifyText",
-      "target": "css=.product_availability__AyT3J:nth-child(5) .cart-ingka-status--green > .cart-ingka-status__label",
+      "target": "css=.cart-ingka-status__label",
       "targets": [
-        ["css=.product_availability__AyT3J:nth-child(5) .cart-ingka-status--green > .cart-ingka-status__label", "css:finder"],
-        ["xpath=//ul[@id='aria_product_description_40243596']/li[5]/div/span/span", "xpath:idRelative"],
-        ["xpath=//li[5]/div/span/span", "xpath:position"]
+        ["css=.cart-ingka-status__label", "css:finder"],
+        ["xpath=//ul[@id='aria_product_description_40243596']/li[4]/div/span/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/span/span", "xpath:position"]
       ],
       "value": "Available for Home delivery"
     }, {
