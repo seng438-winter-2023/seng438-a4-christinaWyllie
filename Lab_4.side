@@ -228,7 +228,7 @@
     }]
   }, {
     "id": "765a2fdc-d22f-4e4e-8fa6-978f3bdfa54e",
-    "name": "VerifyValidUsernameWithInvalidPassword",
+    "name": "VerifyValidUsernameWithInvalidPasswordLogin",
     "commands": [{
       "id": "02c7cc99-73f5-4d3d-baf1-3076e8c24a48",
       "comment": "",
@@ -789,6 +789,13 @@
       ],
       "value": ""
     }, {
+      "id": "c7f94736-10d6-4367-9b9d-5c2c79f85492",
+      "comment": "",
+      "command": "//Insert into Cart item in Stock",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "c1f7d6d1-f3f7-485c-9243-c6d13e6e5040",
       "comment": "",
       "command": "click",
@@ -935,7 +942,7 @@
       ],
       "value": "Available for Home delivery"
     }, {
-      "id": "3720c1fa-4808-4b8b-be56-7ae25386762d",
+      "id": "f29d4485-9cf9-441f-8424-83f19b94d357",
       "comment": "",
       "command": "close",
       "target": "",
@@ -1322,6 +1329,10 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "1095e3a5-02fa-46f6-a704-d03e96ef3387",
+    "name": "SearchWithValidNotInCatalogueInput",
+    "commands": []
   }],
   "suites": [{
     "id": "965ef601-536a-4271-a100-376c266aa479",
