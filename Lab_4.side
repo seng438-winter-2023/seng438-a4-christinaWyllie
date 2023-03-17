@@ -2454,7 +2454,7 @@
     }]
   }, {
     "id": "4893e1ec-f843-4f95-ae25-ff0cf689ccad",
-    "name": "SignUpInvalidPostalCode",
+    "name": "SignUpInvalidPassword",
     "commands": [{
       "id": "25ff11ea-22de-490a-95e2-56b7a9d58376",
       "comment": "",
@@ -2894,7 +2894,7 @@
     }]
   }, {
     "id": "599a1a72-f097-4c3c-952d-57936b4e5ea1",
-    "name": "SignUpInvalidPassword",
+    "name": "SignUpInvalidPostalCode",
     "commands": [{
       "id": "0de2ec50-f297-43c5-b189-8df8a6ce4280",
       "comment": "",
@@ -3499,7 +3499,7 @@
     }]
   }, {
     "id": "dc004b07-7297-4abd-bd40-d6fb80f62e2f",
-    "name": "AddItemOutOfStock",
+    "name": "AddItemToWishlistOutOfStock",
     "commands": [{
       "id": "0e706783-5e15-4350-8832-333a3f7bdaa1",
       "comment": "",
