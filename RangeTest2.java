@@ -3,7 +3,6 @@ Class: SENG 438
 File: RangeTest.java
 Purpose: Test the getLowerBound, getUpperBound, getLength, contains, and intersectstests method in the class Range. 
 # of Tests: 38
-Failures: 
 Author: Sobia Khan, Maitry Rohit, Jamie Stade, Christina Wyllie
 Date: March 17, 2023
 */
