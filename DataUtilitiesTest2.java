@@ -4,11 +4,10 @@ Class: SENG 438
 File: DataUtilitestest.java
 Purpose: Test the calculateColumnTotal, calculateRowTotal, createNumberArray, createNumberArray2D, and getCumulativePercentage tests method in the class DataUtilities. 
 
-# of Tests: 37
-Failures: 7
+# of Tests: 38
 
 Author: Christina Wyllie, Sobia Khan, Maitry Rohit
-Date: March 3, 2023
+Date: March 17, 2023
 
 */
 
@@ -891,4 +890,113 @@ public class DataUtilitiesTest2 {
 //				assertEquals(expected[i], actual.getValue(i));
 //			}
 //		}
+	
+	/**
+ * 
+ */
+    	//Valid arrays that are equal to eachother
+	@Test
+	public void EqualArraysTest() {
+		double[][] array1 = {{0,1,2}, {2,2,3}};
+		assertTrue("The arrays are equal, but the function returns false", DataUtilities.equal(array1, array1));
+	}
+	
+	//The first array is null and the second is not returning not equal
+	@Test
+	public void ArrayAisNullTest() {
+		double[][] array1 = null;
+		double[][] array2 = {{0,1,2}, {2,2,3}};
+		assertFalse("The arrays are not equal, but the function returns true", DataUtilities.equal(array1, array2));
+	}
+	
+	//The second array is null and the first is not returning not equal
+	@Test
+	public void ArrayBisNullTest() {
+		double[][] array2 = null;
+		double[][] array1 = {{0,1,2}, {2,2,3}};
+		assertFalse("The arrays are not equal, but the function returns true", DataUtilities.equal(array1, array2));
+	}
+	
+	//Both arrays are null resulting in equal
+	@Test
+	public void BothArrayNull() {
+		double[][] array1 = null;
+		assertTrue("The arrays are equal, but the function returns false", DataUtilities.equal(array1, array1));
+	}
+	
+	
+	//Arrays are not equal and it is caught by the length check in the function
+	@Test
+	public void ArrayLengthsNotEqual() {
+		double[][] array1 = {{0,1,2}};
+		double[][] array2 = {{0,1,2}, {2,2,3}};
+		assertFalse("The arrays are not equal, but the function returns true", DataUtilities.equal(array1, array2));
+	}
+	
+	//The arrays are equal lengths but not data
+	@Test
+	public void ArrayLengthisEqualArrayNotEqual() {
+		double[][] array1 = {{0,1,2}, {0,3,5}};
+		double[][] array2 = {{0,1,2}, {2,2,3}};
+		assertFalse("The arrays are not equal, but the function returns true", DataUtilities.equal(array1, array2));
+	}
+	
+	//CLONE TESTS
+	
+	//Null sent to clone and illegal argument exception thrown
+	@Test (expected = IllegalArgumentException.class)
+	public void cloneNull() {
+		double[][] example = null;
+		DataUtilities.clone(example);
+	}
+	
+	//An equal array is created
+	@Test
+	public void cloneCreated() {
+		double[][] expected = {{0,1.6,2.7}, {0,3.9,5.5}};
+		double[][] actual = DataUtilities.clone(expected);
+		for(int i = 0; i < 2; i++) {
+			assertArrayEquals(expected[i], actual[i], 0.0000d);
+		}
+	}
+	
+	//An index is null
+	@Test
+	public void firstIndexNull() {
+		double[][] expected = {{}, {0,3.9,5.5}};
+		double[][] actual = DataUtilities.clone(expected);
+		
+		for(int i = 0; i < 2; i++) {
+			assertArrayEquals(expected[i], actual[i], 0.0000d);
+		}
+	}
+	
+	// IMPROVING OLDER TESTS
+	
+	//All tests focus on the illegal arguement exception being thrown after a null is sent to the function
+	
+	@Test (expected = IllegalArgumentException.class) 
+	public void columnNull() {
+		Values2D test = null;
+		DataUtilities.calculateColumnTotal(test, 0);
+	}
+	
+	@Test (expected = IllegalArgumentException.class) 
+	public void rowNull() {
+		Values2D test = null;
+		DataUtilities.calculateRowTotal(test, 0);
+	}
+	
+	@Test (expected = IllegalArgumentException.class) 
+	public void numberArrayNull() {
+		double[] test = null;
+		DataUtilities.createNumberArray(test);
+	}
+	
+	@Test (expected = IllegalArgumentException.class) 
+	public void numberArrayNull2D() {
+		double[][] test = null;
+		DataUtilities.createNumberArray2D(test);
+	}
+	
 }
