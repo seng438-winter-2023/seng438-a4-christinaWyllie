@@ -183,38 +183,6 @@
       "value": ""
     }]
   }, {
-    "id": "7be7cf64-9c46-4f95-90d3-4534f1c2efb1",
-    "name": "VerifyHomePageTitle",
-    "commands": [{
-      "id": "861b079f-5557-434f-a07a-49607e7f2a5c",
-      "comment": "",
-      "command": "open",
-      "target": "/ca/en/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "1a6aeef1-1489-488e-a1dc-69d55d600ab7",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "718x720",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "1bd60ab9-5637-4470-bc5f-bf611aba7271",
-      "comment": "",
-      "command": "assertTitle",
-      "target": "Furniture & Home Décor - Bring Home To Life - IKEA CA",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "6df04bbe-d68c-483e-ba8f-fe2146fc97a3",
-      "comment": "",
-      "command": "close",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }]
-  }, {
     "id": "765a2fdc-d22f-4e4e-8fa6-978f3bdfa54e",
     "name": "VerifyValidUsernameWithInvalidPasswordLogin",
     "commands": [{
@@ -510,10 +478,10 @@
       "id": "a9573134-1a93-4ddf-a67d-4c7d5c5e96ac",
       "comment": "",
       "command": "click",
-      "target": "css=.plp-fragment-wrapper:nth-child(2) .pip-aspect-ratio-box:nth-child(3) > .pip-image",
+      "target": "css=.plp-fragment-wrapper:nth-child(2) .pip-aspect-ratio-box:nth-child(2) > .pip-image",
       "targets": [
-        ["css=.plp-fragment-wrapper:nth-child(2) .pip-aspect-ratio-box:nth-child(3) > .pip-image", "css:finder"],
-        ["xpath=//img[contains(@src,'https://www.ikea.com/ca/en/images/products/malm-6-drawer-dresser-black-brown__1154387_pe886016_s5.jpg?f=xxs')]", "xpath:img"],
+        ["css=.plp-fragment-wrapper:nth-child(2) .pip-aspect-ratio-box:nth-child(2) > .pip-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ca/en/images/products/malm-6-drawer-dresser-white__0823861_pe775996_s5.jpg?f=xxs')]", "xpath:img"],
         ["xpath=//section[@id='product-list']/div/div[2]/div[2]/div/div/a/div/span[2]/img", "xpath:idRelative"],
         ["xpath=//div[2]/div[2]/div/div/a/div/span[2]/img", "xpath:position"]
       ],
