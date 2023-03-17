@@ -1974,10 +1974,19 @@
       "id": "ac8360dd-5919-431a-a1bb-446bde7b0f45",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=.ugc-rr-pip-fe-questionnaire__question__range > .ugc-rr-pip-fe-ratings-star-bar--spaced",
+      "target": "xpath=//div[4]/div/div[2]/div/div/div[2]/div/div",
       "targets": [
         ["css=.ugc-rr-pip-fe-questionnaire__question__range > .ugc-rr-pip-fe-ratings-star-bar--spaced", "css:finder"],
         ["xpath=//div[4]/div/div[2]/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cf52255-f4d7-49fd-a43b-61b921e6e627",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ugc-rr-pip-fe-ratings-star-bar--spaced__star--filled--clickable:nth-child(3) > path",
+      "targets": [
+        ["css=.ugc-rr-pip-fe-ratings-star-bar--spaced__star--filled--clickable:nth-child(3) > path", "css:finder"]
       ],
       "value": ""
     }, {
@@ -2025,6 +2034,18 @@
       ],
       "value": "good sofa"
     }, {
+      "id": "7fd4e5e8-5b29-435d-b4ea-ef5b365b5e1d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ugc-rr-pip-fe--terms",
+      "targets": [
+        ["id=ugc-rr-pip-fe--terms", "id"],
+        ["css=#ugc-rr-pip-fe--terms", "css:finder"],
+        ["xpath=//input[@id='ugc-rr-pip-fe--terms']", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "78abb27b-526f-4d35-8361-9ab3e2a26c89",
       "comment": "",
       "command": "click",
@@ -2033,7 +2054,7 @@
         ["id=ugc-rr-pip-fe--terms", "id"],
         ["css=#ugc-rr-pip-fe--terms", "css:finder"],
         ["xpath=//input[@id='ugc-rr-pip-fe--terms']", "xpath:attributes"],
-        ["xpath=//div[2]/div/div/div[4]/div/div/input", "xpath:position"]
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
       ],
       "value": ""
     }, {
