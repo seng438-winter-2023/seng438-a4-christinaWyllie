@@ -4,11 +4,10 @@ Class: SENG 438
 File: DataUtilitestest.java
 Purpose: Test the calculateColumnTotal, calculateRowTotal, createNumberArray, createNumberArray2D, and getCumulativePercentage tests method in the class DataUtilities. 
 
-# of Tests: 37
-Failures: 7
+# of Tests: 38
 
 Author: Christina Wyllie, Sobia Khan, Maitry Rohit
-Date: March 3, 2023
+Date: March 17, 2023
 
 */
 
@@ -1000,5 +999,4 @@ public class DataUtilitiesTest2 {
 		DataUtilities.createNumberArray2D(test);
 	}
 	
-}
 }
