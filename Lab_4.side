@@ -17,7 +17,7 @@
       "id": "8bc95acb-7394-45bf-bdda-20e3b0d29b94",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1382x736",
+      "target": "718x720",
       "targets": [],
       "value": ""
     }, {
@@ -200,18 +200,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "66001243-6283-45bb-9e73-50283526fb14",
-      "comment": "",
-      "command": "click",
-      "target": "css=.personalised_hej_fragment--text--heading-l",
-      "targets": [
-        ["css=.personalised_hej_fragment--text--heading-l", "css:finder"],
-        ["xpath=//header[@id='pco_recently_viewed_header']/h3", "xpath:idRelative"],
-        ["xpath=//h3", "xpath:position"],
-        ["xpath=//h3[contains(.,'Hej! Welcome back')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
       "id": "1bd60ab9-5637-4470-bc5f-bf611aba7271",
       "comment": "",
       "command": "assertTitle",
@@ -240,7 +228,7 @@
       "id": "e8763745-c283-4a5b-93ae-885239fa52b5",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1382x736",
+      "target": "718x720",
       "targets": [],
       "value": ""
     }, {
@@ -265,30 +253,6 @@
         ["xpath=//a[@id='loyalty-modal-button']/span", "xpath:idRelative"],
         ["xpath=//li[2]/a/span", "xpath:position"],
         ["xpath=//span[contains(.,'Hej! Log in or sign up')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "b88ffe10-c7cd-4405-ae67-c5552bfb821a",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.header__link:nth-child(1) h3",
-      "targets": [
-        ["css=.header__link:nth-child(1) h3", "css:finder"],
-        ["xpath=//div[@id='little-man-slider']/div/section/ul/li/a/div/div/h3", "xpath:idRelative"],
-        ["xpath=//li/a/div/div/h3", "xpath:position"],
-        ["xpath=//h3[contains(.,'Join IKEA Family')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "a784d4f9-6063-49c8-a86c-65f1fa04609e",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.header__link:nth-child(1) h3",
-      "targets": [
-        ["css=.header__link:nth-child(1) h3", "css:finder"],
-        ["xpath=//div[@id='little-man-slider']/div/section/ul/li/a/div/div/h3", "xpath:idRelative"],
-        ["xpath=//li/a/div/div/h3", "xpath:position"],
-        ["xpath=//h3[contains(.,'Join IKEA Family')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -400,7 +364,7 @@
       "id": "105d8800-946e-4871-9411-d06d8fcd5166",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1382x736",
+      "target": "718x720",
       "targets": [],
       "value": ""
     }, {
@@ -451,18 +415,6 @@
       ],
       "value": "${KEY_ENTER}"
     }, {
-      "id": "5ea18f08-1e56-448d-b9da-30151ff5eca0",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=#image-container-236D4802-EF95-49E3-8624D2AC4CDCD0F8 .ofeed-aspect-ratio-image__image",
-      "targets": [
-        ["css=#image-container-236D4802-EF95-49E3-8624D2AC4CDCD0F8 .ofeed-aspect-ratio-image__image", "css:finder"],
-        ["xpath=//img[@alt='An ash IKORNNES standing mirror has a sweater hanging on its attached back rail, facing a window in an airy, pink bedroom.']", "xpath:img"],
-        ["xpath=//div[@id='image-container-236D4802-EF95-49E3-8624D2AC4CDCD0F8']/div/a/span/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div/div/a/span/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "c1c548ed-159c-4be6-9f53-b0906811ab7a",
       "comment": "",
       "command": "verifyText",
@@ -474,18 +426,6 @@
         ["xpath=//h1[contains(.,'There are no results for \"jkwdhfkjewhrfklndsknsdmbwkj\"')]", "xpath:innerText"]
       ],
       "value": "There are no results for \"jkwdhfkjewhrfklndsknsdmbwkj\""
-    }, {
-      "id": "70ed4320-4e1d-4d8e-8014-e6d8d03bdd1f",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.ofeed-shoppable-image--visible-dots .ofeed-aspect-ratio-image__image",
-      "targets": [
-        ["css=.ofeed-shoppable-image--visible-dots .ofeed-aspect-ratio-image__image", "css:finder"],
-        ["xpath=//img[@alt='An ash IKORNNES standing mirror has a sweater hanging on its attached back rail, facing a window in an airy, pink bedroom.']", "xpath:img"],
-        ["xpath=//div[@id='image-container-236D4802-EF95-49E3-8624D2AC4CDCD0F8']/div/a/span/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div/div/a/span/img", "xpath:position"]
-      ],
-      "value": ""
     }, {
       "id": "a1ff2057-a9df-4338-9562-eacc0cfeaa9b",
       "comment": "",
@@ -567,18 +507,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "721d34e0-3614-4341-9f72-22867968b557",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.plp-fragment-wrapper:nth-child(2) .pip-aspect-ratio-box:nth-child(3) > .pip-image",
-      "targets": [
-        ["css=.plp-fragment-wrapper:nth-child(2) .pip-aspect-ratio-box:nth-child(3) > .pip-image", "css:finder"],
-        ["xpath=//img[contains(@src,'https://www.ikea.com/ca/en/images/products/malm-6-drawer-dresser-black-brown__1154387_pe886016_s5.jpg?f=xxs')]", "xpath:img"],
-        ["xpath=//section[@id='product-list']/div/div[2]/div[2]/div/div/a/div/span[2]/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/div/div/a/div/span[2]/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "a9573134-1a93-4ddf-a67d-4c7d5c5e96ac",
       "comment": "",
       "command": "click",
@@ -591,55 +519,10 @@
       ],
       "value": ""
     }, {
-      "id": "170f4489-15d3-4781-99e2-83c659530296",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=#pip-media-1 .pip-image",
-      "targets": [
-        ["css=#pip-media-1 .pip-image", "css:finder"],
-        ["xpath=//img[@alt='MALM 6-drawer dresser, black-brown, 63x30 3/4 \"']", "xpath:img"],
-        ["xpath=//div[@id='pip-media-1']/button/span/img", "xpath:idRelative"],
-        ["xpath=//button/span/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "7115f749-d0a9-486c-870d-b7986343b93f",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,46)",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "59ca23f9-7cb9-461b-839d-d5f376da2063",
       "comment": "",
       "command": "runScript",
       "target": "window.scrollTo(0,796)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "0fcfafb8-59c9-4da3-a008-d2dab60d866f",
-      "comment": "",
-      "command": "click",
-      "target": "css=.pip-product-styles__link:nth-child(3) .pip-image",
-      "targets": [
-        ["css=.pip-product-styles__link:nth-child(3) .pip-image", "css:finder"],
-        ["xpath=//img[@alt='MALM 6-drawer dresser, white, 63x30 3/4 \"']", "xpath:img"],
-        ["xpath=//div[@id='pip-buy-module-content']/div[2]/div/div/a[2]/div/span/img", "xpath:idRelative"],
-        ["xpath=//a[2]/div/span/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "f808f0d8-5b52-4be6-a28b-471fdaa01a86",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,190)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "6379cdd1-4b3c-4535-81d6-80ff160ad562",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,740)",
       "targets": [],
       "value": ""
     }, {
@@ -752,6 +635,22 @@
       ],
       "value": ""
     }, {
+      "id": "cff44c73-b14f-49ba-9c73-128bf0d1c471",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Remove product",
+      "targets": [
+        ["linkText=Remove product", "linkText"],
+        ["css=.productControls_remove__\\+MOme > .cart-ingka-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Remove product')]", "xpath:link"],
+        ["xpath=//a[@type='tertiary']", "xpath:attributes"],
+        ["xpath=//main[@id='one-checkout']/main/div/div/div/div[21]/div[6]/div/div/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Remove product')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
       "id": "2bc3f4f8-4a2a-4419-9678-8594315dcb41",
       "comment": "",
       "command": "close",
@@ -844,20 +743,6 @@
       ],
       "value": ""
     }, {
-      "id": "22c63821-5c3c-4e9b-9a4b-1e22f6f1673a",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,102)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "3b3f1baf-f458-4496-a646-72aceca06f12",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,711)",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "e0144547-3eab-4ad1-a2af-959c9f1cad02",
       "comment": "",
       "command": "runScript",
@@ -941,6 +826,22 @@
         ["xpath=//li[4]/div/span/span", "xpath:position"]
       ],
       "value": "Available for Home delivery"
+    }, {
+      "id": "b84ae09d-c413-4a99-affc-2967a34b3b7e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Remove product",
+      "targets": [
+        ["linkText=Remove product", "linkText"],
+        ["css=.productControls_remove__\\+MOme > .cart-ingka-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Remove product')]", "xpath:link"],
+        ["xpath=//a[@type='tertiary']", "xpath:attributes"],
+        ["xpath=//main[@id='one-checkout']/main/div/div/div/div[21]/div[6]/div/div/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Remove product')]", "xpath:innerText"]
+      ],
+      "value": ""
     }, {
       "id": "f29d4485-9cf9-441f-8424-83f19b94d357",
       "comment": "",
@@ -1062,29 +963,9 @@
       ],
       "value": ""
     }, {
-      "id": "530c307c-2f50-4a2a-9a73-5c702a9daba3",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--tertiary .hnf-btn__label",
-      "targets": [
-        ["css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--tertiary .hnf-btn__label", "css:finder"],
-        ["xpath=//div/div/button/span/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "967908f7-9f60-4c51-9c71-8a7246d1103d",
       "comment": "",
       "command": "click",
-      "target": "css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--tertiary .hnf-btn__label",
-      "targets": [
-        ["css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--tertiary .hnf-btn__label", "css:finder"],
-        ["xpath=//div/div/button/span/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "3c6a4747-586a-448c-98a3-0620f270ec23",
-      "comment": "",
-      "command": "mouseOut",
       "target": "css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--tertiary .hnf-btn__label",
       "targets": [
         ["css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--tertiary .hnf-btn__label", "css:finder"],
@@ -1175,46 +1056,6 @@
       ],
       "value": ""
     }, {
-      "id": "2575d0f4-345b-4ae2-9d24-87a2a93e3617",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.hnf-header__hamburger .hnf-btn__inner",
-      "targets": [
-        ["css=.hnf-header__hamburger .hnf-btn__inner", "css:finder"],
-        ["xpath=//li[5]/button/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "a0d810bd-a13e-47f1-a9c1-c67ce8925cee",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.hnf-header__hamburger .hnf-btn__inner",
-      "targets": [
-        ["css=.hnf-header__hamburger .hnf-btn__inner", "css:finder"],
-        ["xpath=//li[5]/button/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "ef269151-744b-444b-8449-1ab235fa4e69",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.hnf-location__btn-wrapper:nth-child(2) .hnf-btn__label",
-      "targets": [
-        ["css=.hnf-location__btn-wrapper:nth-child(2) .hnf-btn__label", "css:finder"],
-        ["xpath=//div[2]/button/span/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "561f4e58-e8a6-4d11-925b-4e905e617cc1",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.hnf-location__btn-wrapper:nth-child(2) .hnf-btn__label",
-      "targets": [
-        ["css=.hnf-location__btn-wrapper:nth-child(2) .hnf-btn__label", "css:finder"],
-        ["xpath=//div[2]/button/span/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "1130a8e3-19d7-4be4-b81d-d3dca6c00791",
       "comment": "",
       "command": "click",
@@ -1222,31 +1063,6 @@
       "targets": [
         ["css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--tertiary > .hnf-btn__inner", "css:finder"],
         ["xpath=//div[8]/div/div/button/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "dfbff832-b00e-415a-8d07-313b4ec22fd0",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "id=hnf-txt-postalcodepicker-postcode",
-      "targets": [
-        ["id=hnf-txt-postalcodepicker-postcode", "id"],
-        ["css=#hnf-txt-postalcodepicker-postcode", "css:finder"],
-        ["xpath=//input[@id='hnf-txt-postalcodepicker-postcode']", "xpath:attributes"],
-        ["xpath=//div[@id='postalcodepicker-input-form']/div/div/input", "xpath:idRelative"],
-        ["xpath=//div/div/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "e9cb6ec5-1ddc-4a76-8767-961d6fd33f01",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small > .hnf-btn__inner",
-      "targets": [
-        ["css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small > .hnf-btn__inner", "css:finder"],
-        ["xpath=//li[@id='hnf-header-postalcodepicker']/div/button/span", "xpath:idRelative"],
-        ["xpath=//li/div/button/span", "xpath:position"],
-        ["xpath=//span[contains(.,'T3R0W2')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -1329,10 +1145,6 @@
       "targets": [],
       "value": ""
     }]
-  }, {
-    "id": "1095e3a5-02fa-46f6-a704-d03e96ef3387",
-    "name": "SearchWithValidNotInCatalogueInput",
-    "commands": []
   }, {
     "id": "f3655935-01ed-4c3e-b8bb-8e1393fc31f2",
     "name": "AddItemToWishList",
@@ -1456,28 +1268,6 @@
       "target": "linkText=KIVIK",
       "targets": [],
       "value": "KIVIK"
-    }, {
-      "id": "bc13d375-dc9e-42ec-a509-5de0ee75c305",
-      "comment": "",
-      "command": "verifyText",
-      "target": "css=.ListItemDetails_description__318PH",
-      "targets": [
-        ["css=.ListItemDetails_description__318PH", "css:finder"],
-        ["xpath=//div[@id='root']/main/div/div/div[2]/div/div/ul[2]/li/div/ul/li", "xpath:idRelative"],
-        ["xpath=//li/div/ul/li", "xpath:position"]
-      ],
-      "value": "sofa, Tresund light beige"
-    }, {
-      "id": "60d790a7-cffe-4a48-83ea-599734a40c40",
-      "comment": "",
-      "command": "verifyText",
-      "target": "css=.ListItem_details__1MxDE li:nth-child(3)",
-      "targets": [
-        ["css=.ListItem_details__1MxDE li:nth-child(3)", "css:finder"],
-        ["xpath=//div[@id='root']/main/div/div/div[2]/div/div/ul[2]/li/div/ul/li[3]", "xpath:idRelative"],
-        ["xpath=//li/div/ul/li[3]", "xpath:position"]
-      ],
-      "value": "294.828.33"
     }]
   }, {
     "id": "b2eb198e-d9e3-4827-bc5d-678739a3c40f",
@@ -1832,31 +1622,6 @@
         ["xpath=//div[19]/div/div/input", "xpath:position"]
       ],
       "value": "abcdABCD1234!@#$"
-    }, {
-      "id": "69208ccd-3692-456e-b116-11e138bd2bcd",
-      "comment": "",
-      "command": "mouseDown",
-      "target": "id=family-signup-form-password-default-gutter-10",
-      "targets": [
-        ["id=family-signup-form-password-default-gutter-10", "id"],
-        ["css=#family-signup-form-password-default-gutter-10", "css:finder"],
-        ["xpath=//div[@id='family-signup-form-password-default-gutter-10']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[3]/div/form/div[20]", "xpath:idRelative"],
-        ["xpath=//div[20]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "8352116d-935b-4708-a5c0-20eecedf3a4a",
-      "comment": "",
-      "command": "mouseUp",
-      "target": "css=.checkbox:nth-child(2) label",
-      "targets": [
-        ["css=.checkbox:nth-child(2) label", "css:finder"],
-        ["xpath=//div[@id='root']/div/div[3]/div/form/div[21]/fieldset/span/span[2]/label", "xpath:idRelative"],
-        ["xpath=//div[21]/fieldset/span/span[2]/label", "xpath:position"],
-        ["xpath=//label[contains(.,'Yes, I would like to receive exclusive offers, sneak peeks at new products and inspiration from IKEA.')]", "xpath:innerText"]
-      ],
-      "value": ""
     }, {
       "id": "70f09a87-d5ca-4d87-a596-50b1a01d68ef",
       "comment": "",
@@ -2454,7 +2219,7 @@
     }]
   }, {
     "id": "4893e1ec-f843-4f95-ae25-ff0cf689ccad",
-    "name": "SignUpInvalidPostalCode",
+    "name": "SignUpInvalidPassword",
     "commands": [{
       "id": "25ff11ea-22de-490a-95e2-56b7a9d58376",
       "comment": "",
@@ -2894,7 +2659,7 @@
     }]
   }, {
     "id": "599a1a72-f097-4c3c-952d-57936b4e5ea1",
-    "name": "SignUpInvalidPassword",
+    "name": "SignUpInvalidPostalCode",
     "commands": [{
       "id": "0de2ec50-f297-43c5-b189-8df8a6ce4280",
       "comment": "",
@@ -3498,157 +3263,88 @@
       "value": "Shopping List"
     }]
   }, {
-    "id": "dc004b07-7297-4abd-bd40-d6fb80f62e2f",
-    "name": "AddItemOutOfStock",
+    "id": "c0684f32-a5e2-4b50-9558-0c5fe7895d9b",
+    "name": "SearchWithValidNonCatalogueInput",
     "commands": [{
-      "id": "0e706783-5e15-4350-8832-333a3f7bdaa1",
+      "id": "add48f36-39bb-4226-890c-67835072e83b",
       "comment": "",
       "command": "open",
-      "target": "/ca/en/",
+      "target": "/",
       "targets": [],
       "value": ""
     }, {
-      "id": "81e2e44e-2f7d-4789-8e72-df6b559c4ce0",
+      "id": "eb292e2e-e233-4687-b8fb-5a3b6997bc33",
       "comment": "",
       "command": "setWindowSize",
-      "target": "974x594",
+      "target": "718x720",
       "targets": [],
       "value": ""
     }, {
-      "id": "d9fb27ff-8ce6-4e9e-8267-c0ce6a99113b",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,181.3333282470703)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "91461ef4-d8e7-4c08-bd65-41732e0eef35",
+      "id": "50642f99-2f0c-40f7-8ce0-1404b1dd959a",
       "comment": "",
       "command": "click",
-      "target": "css=.personalised_hej_fragment--card__title",
+      "target": "css=.hero .go-shopping",
       "targets": [
-        ["css=.personalised_hej_fragment--card__title", "css:finder"],
-        ["xpath=//a[@id='personalised_hej_fragment--campaign-card-link']/div[2]/div/h2", "xpath:idRelative"],
-        ["xpath=//h2", "xpath:position"],
-        ["xpath=//h2[contains(.,'Cuddle up in the comfortable KIVIK sofa. The generous size, invites you and your guests to many hours of socializing and relaxation.')]", "xpath:innerText"]
+        ["css=.hero .go-shopping", "css:finder"],
+        ["xpath=//div[@id='mountId']/div/main/div/div/div/section/div[2]/div/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div/div/a/span[2]", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "9484e606-b31f-417f-b20d-b8f5d631d6f7",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,367.3333435058594)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "d5afc00e-7af0-47de-83d1-d86e82ec0bd5",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,4358.66650390625)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "4130536d-dd13-4e3c-95e1-0919491ae3ab",
+      "id": "63662648-857a-466c-8a3c-11e35e3ab061",
       "comment": "",
       "command": "click",
-      "target": "css=.plp-fragment-wrapper:nth-child(21) .pip-btn--icon-tertiary",
+      "target": "name=q",
       "targets": [
-        ["css=.plp-fragment-wrapper:nth-child(21) .pip-btn--icon-tertiary", "css:finder"],
-        ["xpath=(//button[@type='button'])[131]", "xpath:attributes"],
-        ["xpath=//div[21]/div[2]/div/div/div/div/button[3]", "xpath:position"]
+        ["name=q", "name"],
+        ["css=.search-field__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "a875db1f-6841-4620-a369-01deab992d66",
+      "id": "bc0cddfb-8a84-42ae-9c7d-be628abe700f",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-field__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iphone 12"
+    }, {
+      "id": "d55b3752-9579-46b4-ad28-ec78bebe3cc7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-field__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "63883fe2-1e73-4aa7-8a33-39a180b7da16",
       "comment": "",
       "command": "verifyText",
-      "target": "css=.hnf-toast__text",
-      "targets": [],
-      "value": "KIVIK was added to Shopping List"
-    }, {
-      "id": "08027fa2-10eb-47c6-aafa-0212ed8fa6da",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,18)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "1304afc6-e31a-44b8-b46d-0275b17de6c7",
-      "comment": "",
-      "command": "click",
-      "target": "css=.hnf-header__shopping-list-link .hnf-btn__inner",
+      "target": "css=.search-summary__heading",
       "targets": [
-        ["css=.hnf-header__shopping-list-link .hnf-btn__inner", "css:finder"],
-        ["xpath=//li[3]/a/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Shopping list')]", "xpath:innerText"]
+        ["css=.search-summary__heading", "css:finder"],
+        ["xpath=//main[@id='content']/div/div/div/section/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Showing matches for \"malm\"')]", "xpath:innerText"]
       ],
-      "value": ""
+      "value": "There are no results for \"iphone 12\""
     }, {
-      "id": "b11f08c5-5ff3-41c5-b48b-fa34ab1286a0",
+      "id": "e13808c5-a5ef-4c51-9830-d498bdd1182d",
       "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,699.3333129882812)",
+      "command": "close",
+      "target": "",
       "targets": [],
       "value": ""
-    }, {
-      "id": "cc75da66-6d26-4075-98d3-b4bb00b39fde",
-      "comment": "",
-      "command": "verifyText",
-      "target": "css=.ListHeader_listItemCount__3BgoT",
-      "targets": [
-        ["css=.ListHeader_listItemCount__3BgoT", "css:finder"],
-        ["xpath=//div[@id='root']/main/div/div/div[2]/div/div/div/div/div/header/div/div[2]", "xpath:idRelative"],
-        ["xpath=//header/div/div[2]", "xpath:position"]
-      ],
-      "value": "1 items"
-    }, {
-      "id": "f2d1605c-5e4f-4c9d-a51e-b5950cec85ef",
-      "comment": "",
-      "command": "click",
-      "target": "css=.ItemCollectionNarrow_image__w96cO",
-      "targets": [
-        ["css=.ItemCollectionNarrow_image__w96cO", "css:finder"],
-        ["xpath=//img[@alt='KIVIK']", "xpath:img"],
-        ["xpath=//div[@id='root']/main/div/div/div[2]/div/div/div/div/div/div/a/img", "xpath:idRelative"],
-        ["xpath=//div/div/div/div/div/a/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "bfc54551-cc68-4bd3-89da-0a37ecfe5874",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,976.6666870117188)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "c42bc070-9b96-4565-99a3-fe7c43dc88d1",
-      "comment": "",
-      "command": "verifyText",
-      "target": "linkText=KIVIK",
-      "targets": [],
-      "value": "KIVIK"
-    }, {
-      "id": "00f90163-0134-48b4-b8e8-e243c8d4e769",
-      "comment": "",
-      "command": "verifyText",
-      "target": "css=.ListItemDetails_description__318PH",
-      "targets": [
-        ["css=.ListItemDetails_description__318PH", "css:finder"],
-        ["xpath=//div[@id='root']/main/div/div/div[2]/div/div/ul[2]/li/div/ul/li", "xpath:idRelative"],
-        ["xpath=//li/div/ul/li", "xpath:position"]
-      ],
-      "value": "Sofa with chaise lounge, Tresund anthracite"
-    }, {
-      "id": "68e5004c-4d44-4d02-a9aa-86129c7f5500",
-      "comment": "",
-      "command": "verifyText",
-      "target": "css=.ListItem_details__1MxDE li:nth-child(3)",
-      "targets": [
-        ["css=.ListItem_details__1MxDE li:nth-child(3)", "css:finder"],
-        ["xpath=//div[@id='root']/main/div/div/div[2]/div/div/ul[2]/li/div/ul/li[3]", "xpath:idRelative"],
-        ["xpath=//li/div/ul/li[3]", "xpath:position"]
-      ],
-      "value": "294.943.84"
     }]
   }],
   "suites": [{
